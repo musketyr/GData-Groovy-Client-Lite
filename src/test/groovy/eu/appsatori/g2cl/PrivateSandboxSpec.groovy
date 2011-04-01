@@ -12,8 +12,8 @@ class PrivateSandboxSpec extends Specification {
 	// normally an external database would be used,
 	// and the test data wouldn't have to be inserted here
 	def setupSpec() {
-	  sql.execute("create table credentials (id int primary key, consumerKey varchar(50), consumerSecret varchar(50), accessToken varchar(50), secretToken varchar(50))")
-	  sql.execute(new File("src/test/resources/private/credentials.sql").text)
+	  sql.execute("create table credentials (id int primary key, consumerKey varchar(50), consumerSecret varchar(50), accessToken varchar(50), secretToken varchar(50), requestor varchar(50))")
+	  sql.execute(new File("/home/ladin/credentials.sql").text)
 	}
 	
 	def "Authorize properly"(){
@@ -23,7 +23,11 @@ class PrivateSandboxSpec extends Specification {
 		http.headers.'GData-Version' = 2
 		def items = []
 		when:
-		http.get(query: [alt: 'jsonc']){ resp, json ->
+		def query =  [alt: 'jsonc']
+		if(!secretToken){
+			query.xoauth_requestor_id = requestor
+		}
+		http.get(query: query){ resp, json ->
 			items = json.data.items
 			items.each { println it }
 	    }
@@ -32,7 +36,7 @@ class PrivateSandboxSpec extends Specification {
 		items
 		
 		where:
-		[consumerKey, consumerSecret, accessToken, secretToken] << sql.rows('select consumerKey, consumerSecret, accessToken, secretToken from credentials')
+		[consumerKey, consumerSecret, accessToken, secretToken, requestor] << sql.rows('select consumerKey, consumerSecret, accessToken, secretToken, requestor from credentials')
 	}
 	
 }
