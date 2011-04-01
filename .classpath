@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="output" path="bin"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER" exported="true"/>
+	<classpathentry sourcepath="/home/ladin/.gradle/cache/junit/junit/sources/junit-4.8.2-sources.jar" kind="lib" path="/home/ladin/.gradle/cache/junit/junit/jars/junit-4.8.2.jar" exported="true"/>
+	<classpathentry kind="lib" path="/home/ladin/.gradle/cache/asm/asm-commons/jars/asm-commons-3.2.jar" exported="true"/>
+	<classpathentry kind="lib" path="/home/ladin/.gradle/cache/org.codehaus.groovy.modules.http-builder/http-builder/jars/http-builder-0.5.1.jar" exported="true"/>
+	<classpathentry kind="lib" path="/home/ladin/.gradle/cache/antlr/antlr/jars/antlr-2.7.7.jar" exported="true"/>
+	<classpathentry sourcepath="/home/ladin/.gradle/cache/oauth.signpost/signpost-core/sources/signpost-core-1.2-sources.jar" kind="lib" path="/home/ladin/.gradle/cache/oauth.signpost/signpost-core/jars/signpost-core-1.2.jar" exported="true"/>
+	<classpathentry sourcepath="/home/ladin/.gradle/cache/commons-logging/commons-logging/sources/commons-logging-1.1.1-sources.jar" kind="lib" path="/home/ladin/.gradle/cache/commons-logging/commons-logging/jars/commons-logging-1.1.1.jar" exported="true"/>
+	<classpathentry sourcepath="/home/ladin/.gradle/cache/org.apache.httpcomponents/httpcore/sources/httpcore-4.0.1-sources.jar" kind="lib" path="/home/ladin/.gradle/cache/org.apache.httpcomponents/httpcore/jars/httpcore-4.0.1.jar" exported="true"/>
+	<classpathentry kind="lib" path="/home/ladin/.gradle/cache/asm/asm-util/jars/asm-util-3.2.jar" exported="true"/>
+	<classpathentry kind="lib" path="/home/ladin/.gradle/cache/asm/asm-analysis/jars/asm-analysis-3.2.jar" exported="true"/>
+	<classpathentry kind="lib" path="/home/ladin/.gradle/cache/asm/asm-tree/jars/asm-tree-3.2.jar" exported="true"/>
+	<classpathentry sourcepath="/home/ladin/.gradle/cache/commons-collections/commons-collections/sources/commons-collections-3.2.1-sources.jar" kind="lib" path="/home/ladin/.gradle/cache/commons-collections/commons-collections/jars/commons-collections-3.2.1.jar" exported="true"/>
+	<classpathentry sourcepath="/home/ladin/.gradle/cache/xml-resolver/xml-resolver/sources/xml-resolver-1.2-sources.jar" kind="lib" path="/home/ladin/.gradle/cache/xml-resolver/xml-resolver/jars/xml-resolver-1.2.jar" exported="true"/>
+	<classpathentry kind="lib" path="/home/ladin/.gradle/cache/asm/asm/jars/asm-3.2.jar" exported="true"/>
+	<classpathentry sourcepath="/home/ladin/.gradle/cache/org.hamcrest/hamcrest-core/sources/hamcrest-core-1.2-sources.jar" kind="lib" path="/home/ladin/.gradle/cache/org.hamcrest/hamcrest-core/jars/hamcrest-core-1.2.jar" exported="true"/>
+	<classpathentry sourcepath="/home/ladin/.gradle/cache/commons-codec/commons-codec/sources/commons-codec-1.3-sources.jar" kind="lib" path="/home/ladin/.gradle/cache/commons-codec/commons-codec/jars/commons-codec-1.3.jar" exported="true"/>
+	<classpathentry sourcepath="/home/ladin/.gradle/cache/org.codehaus.groovy/groovy/sources/groovy-1.7.10-sources.jar" kind="lib" path="/home/ladin/.gradle/cache/org.codehaus.groovy/groovy/jars/groovy-1.7.10.jar" exported="true"/>
+	<classpathentry sourcepath="/home/ladin/.gradle/cache/xerces/xercesImpl/sources/xercesImpl-2.8.1-sources.jar" kind="lib" path="/home/ladin/.gradle/cache/xerces/xercesImpl/jars/xercesImpl-2.8.1.jar" exported="true"/>
+	<classpathentry sourcepath="/home/ladin/.gradle/cache/org.codehaus.groovy/groovy-all/sources/groovy-all-1.7.5-sources.jar" kind="lib" path="/home/ladin/.gradle/cache/org.codehaus.groovy/groovy-all/jars/groovy-all-1.7.5.jar" exported="true"/>
+	<classpathentry sourcepath="/home/ladin/.gradle/cache/org.apache.httpcomponents/httpclient/sources/httpclient-4.0.3-sources.jar" kind="lib" path="/home/ladin/.gradle/cache/org.apache.httpcomponents/httpclient/jars/httpclient-4.0.3.jar" exported="true"/>
+	<classpathentry sourcepath="/home/ladin/.gradle/cache/junit/junit-dep/sources/junit-dep-4.8.2-sources.jar" kind="lib" path="/home/ladin/.gradle/cache/junit/junit-dep/jars/junit-dep-4.8.2.jar" exported="true"/>
+	<classpathentry kind="lib" path="/home/ladin/.gradle/cache/xml-apis/xml-apis/jars/xml-apis-1.3.03.jar" exported="true"/>
+	<classpathentry sourcepath="/home/ladin/.gradle/cache/commons-lang/commons-lang/sources/commons-lang-2.4-sources.jar" kind="lib" path="/home/ladin/.gradle/cache/commons-lang/commons-lang/jars/commons-lang-2.4.jar" exported="true"/>
+	<classpathentry sourcepath="/home/ladin/.gradle/cache/org.spockframework/spock-core/sources/spock-core-0.5-groovy-1.7-sources.jar" kind="lib" path="/home/ladin/.gradle/cache/org.spockframework/spock-core/jars/spock-core-0.5-groovy-1.7.jar" exported="true"/>
+	<classpathentry kind="lib" path="/home/ladin/.gradle/cache/net.sf.json-lib/json-lib/jars/json-lib-2.3-jdk15.jar" exported="true"/>
+	<classpathentry sourcepath="/home/ladin/.gradle/cache/commons-beanutils/commons-beanutils/sources/commons-beanutils-1.8.0-sources.jar" kind="lib" path="/home/ladin/.gradle/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.8.0.jar" exported="true"/>
+	<classpathentry sourcepath="/home/ladin/.gradle/cache/net.sourceforge.nekohtml/nekohtml/sources/nekohtml-1.9.9-sources.jar" kind="lib" path="/home/ladin/.gradle/cache/net.sourceforge.nekohtml/nekohtml/jars/nekohtml-1.9.9.jar" exported="true"/>
+	<classpathentry sourcepath="/home/ladin/.gradle/cache/net.sf.ezmorph/ezmorph/sources/ezmorph-1.0.6-sources.jar" kind="lib" path="/home/ladin/.gradle/cache/net.sf.ezmorph/ezmorph/jars/ezmorph-1.0.6.jar" exported="true"/>
+</classpath>
