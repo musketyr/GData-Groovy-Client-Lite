@@ -1,3 +1,4 @@
 build/
 .gradle/
-src/test/groovy/eu/appsatori/g2cl/PrivateSandboxSpec.groovy
+bin/
+src/test/resources/private/
