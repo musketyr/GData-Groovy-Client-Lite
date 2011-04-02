@@ -1,5 +1,3 @@
 build/
 .gradle/
 bin/
-src/test/resources/private/
-src/test/resources/private/credentials.sql
